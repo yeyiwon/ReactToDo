@@ -1,0 +1,178 @@
+body {
+  /* background: #333; */
+  /* color: #fff; */
+  /* padding: 1em; */
+
+}
+
+.paddingBox {
+  padding: 1em;
+}
+
+.EditBox{
+  display: flex;
+  /* gap: 5px; */
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.itemBoxList button{
+  background: transparent;
+  color: #333;
+  font-size: 20px;
+  box-shadow: none;
+  /* padding: 0; */
+  width: 40px;
+
+}
+
+.sort{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+}
+.sort > ul{
+    display: flex;
+    gap: 10px;
+}
+
+ul, li{
+  list-style: none;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* .EditBtn {
+  font-size: 20px !important;
+  color: #333 !important;
+}
+
+.EditBtn:hover {
+  color: #61dafb !important;
+}
+
+.EditBOX {
+  width: 80px;
+} */
+
+.App {
+
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  /* background: #333; */
+  align-items: center;
+  /* justify-content: center; */
+  /* padding: 10px 10px; */
+  box-sizing: border-box;
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+.itemBox{
+  /* padding: 1em; */
+  /* border-radius: 8px; */
+    padding: 1em;
+    /* border-radius: 8px; */
+    width: 330px;
+    display: flex;
+    gap: 15px;
+    border: none;
+    /* box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2); */
+    flex-direction: column;
+  /* box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2); */
+}
+
+header {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background: teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  /* font-size: 30px; */
+  /* flex-direction: columns; */
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  background: #333;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.2s;
+  padding: 8px 8px;
+  cursor: pointer;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  color: #61dafb;
+}
+
+input {
+  padding: 1em;
+  border-radius: 8px;
+  outline: none;
+  width: 250px;
+  border: none;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.itemBoxList {
+  display: flex;
+  gap: 10px;
+  padding: 0.5em;
+  border-radius: 8px;
+  /* justify-content: center; */
+  align-items: center;
+  font-weight: bold;
+  /* flex-direction: column; */
+  position: relative;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.itemBoxList.done {
+  background-color: #d3ffd3;
+  /* 완료 상태 배경색 */
+}
+.itemBoxList.notdone {
+  background-color: #fff;
+  /* 완료 상태 배경색 */
+}
+
+.todoBox{
+  display: flex;
+  gap: 10px;
+  padding: 1em;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  /* box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2); */
+}
+span{font-size: 12px; color: gray;}
+
+.flexBox {
+  width: 100%;
+  /* padding: 1em; */
+  display: flex;
+  justify-content: space-between;
+}
